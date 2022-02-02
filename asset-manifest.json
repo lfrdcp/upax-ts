@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/upax-ts/static/css/main.97909f78.chunk.css",
+    "main.js": "/upax-ts/static/js/main.071f0052.chunk.js",
+    "main.js.map": "/upax-ts/static/js/main.071f0052.chunk.js.map",
+    "runtime-main.js": "/upax-ts/static/js/runtime-main.d9ae1d51.js",
+    "runtime-main.js.map": "/upax-ts/static/js/runtime-main.d9ae1d51.js.map",
+    "static/js/2.c96f16d5.chunk.js": "/upax-ts/static/js/2.c96f16d5.chunk.js",
+    "static/js/2.c96f16d5.chunk.js.map": "/upax-ts/static/js/2.c96f16d5.chunk.js.map",
+    "index.html": "/upax-ts/index.html",
+    "static/css/main.97909f78.chunk.css.map": "/upax-ts/static/css/main.97909f78.chunk.css.map",
+    "static/js/2.c96f16d5.chunk.js.LICENSE.txt": "/upax-ts/static/js/2.c96f16d5.chunk.js.LICENSE.txt",
+    "static/media/logo.795bd3db.png": "/upax-ts/static/media/logo.795bd3db.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9ae1d51.js",
+    "static/js/2.c96f16d5.chunk.js",
+    "static/css/main.97909f78.chunk.css",
+    "static/js/main.071f0052.chunk.js"
+  ]
+}
