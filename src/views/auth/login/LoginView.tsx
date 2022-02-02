@@ -78,7 +78,7 @@ const LoginView: React.FC = (): JSX.Element => {
     <Container>
       <GridCenter>
         <Grid item xs={12} sm={10} md={6} lg={5} xl={5}>
-          <Card>
+          <Card style={{ background: 'transparent', boxShadow: 'none' }}>
             <form onSubmit={handleSubmit(onSubmit)}>
               <Snackbar data={snackbar} handleClose={handleClose} />
 
