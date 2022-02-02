@@ -55,6 +55,16 @@ const TextFieldPassword: React.FC<ITextFieldPassword> = ({
     e.preventDefault();
   };
 
+  const onPaste = (e: React.ChangeEvent<HTMLInputElement>) => {
+    e.preventDefault();
+    return false;
+  };
+
+  const onCopy = (e: React.ChangeEvent<HTMLInputElement>) => {
+    e.preventDefault();
+    return false;
+  };
+  
   return (
     <Grid container spacing={1} alignItems="center">
       <Grid item xs={2} sm={1}>
@@ -64,6 +74,8 @@ const TextFieldPassword: React.FC<ITextFieldPassword> = ({
       </Grid>
       <Grid item xs={10} sm={11}>
         <TextFieldMUI
+          onPaste={onPaste}
+          onCopy={onCopy}
           onChange={(e: any) => {
             setValue(name, e.target.value);
             console.log(e.target.value);
